@@ -15,6 +15,7 @@
 		607120232BA7676500256BF5 /* Banking_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607120222BA7676500256BF5 /* Banking_AppUITests.swift */; };
 		607120252BA7676500256BF5 /* Banking_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607120242BA7676500256BF5 /* Banking_AppUITestsLaunchTests.swift */; };
 		607120372BA77B2B00256BF5 /* MainPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607120362BA77B2B00256BF5 /* MainPageHeader.swift */; };
+		E822F92C2BAB721200187A07 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822F92B2BAB721200187A07 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		607120222BA7676500256BF5 /* Banking_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_AppUITests.swift; sourceTree = "<group>"; };
 		607120242BA7676500256BF5 /* Banking_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		607120362BA77B2B00256BF5 /* MainPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageHeader.swift; sourceTree = "<group>"; };
+		E822F92B2BAB721200187A07 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				607120352BA77AE100256BF5 /* Views */,
+				607120092BA7676000256BF5 /* ContentView.swift */,
 				607120062BA7676000256BF5 /* Banking App */,
 				607120172BA7676500256BF5 /* Banking AppTests */,
 				607120212BA7676500256BF5 /* Banking AppUITests */,
@@ -132,7 +135,7 @@
 		607120352BA77AE100256BF5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				607120092BA7676000256BF5 /* ContentView.swift */,
+				E822F92B2BAB721200187A07 /* Cards.swift */,
 				607120362BA77B2B00256BF5 /* MainPageHeader.swift */,
 			);
 			path = Views;
@@ -271,6 +274,7 @@
 				6071200A2BA7676000256BF5 /* ContentView.swift in Sources */,
 				607120372BA77B2B00256BF5 /* MainPageHeader.swift in Sources */,
 				607120082BA7676000256BF5 /* Banking_App.swift in Sources */,
+				E822F92C2BAB721200187A07 /* Cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
