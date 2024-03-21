@@ -11,7 +11,8 @@ struct MainPageHeader: View {
     var body: some View {
         Header()
             .foregroundColor(.white)
-            .background(Color.blue)
+//        вытащить из комментариев, если надо посмотреть на результат
+            .background(Color.bluePurple)
         }
     }
 
@@ -23,6 +24,7 @@ struct MainPageHeader: View {
             Image(systemName: "person.circle")
                 .resizable()
                 .frame(width: 40, height: 40)
+                .padding(.leading, 20)
             
             // Приветственный текст
             Text("Hi, Jack Peterson")
