@@ -8,15 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selectedTab: Tab = .house
+    @State var selectedItem: Item? = nil
+    
     var body: some View {
-        VStack {
-            // Добавление заголовка главной страницы
-            MainPageHeader()
-                .alignmentGuide(VerticalAlignment.top) { _ in  1 }
+        
+        ZStack {
+            VStack {
+                TabView(selection: $selectedTab) {
+                    ForEach(Tab.allCases, id: \.rawValue) { tab in
+                        switch selectedTab {
+                        case .house:
+                            HomeView()
+                        case .magnifyingglass:
+                            SearchView()
+                        case .envelope:
+                            MessageView()
+                        case .gearshape:
+                            SettingsView()
+                        }
+                    }
+                }
+            }
+            
+            VStack {
+//                Spacer() // Размещаем CustomTabBar внизу экрана
+                CustomTabBar(selectedTab: $selectedTab)
+                    .padding(.top, 745)
+            }
         }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
