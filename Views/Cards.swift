@@ -2,7 +2,7 @@
 //  Cards.swift
 //  Banking App
 //
-//  Created by Anton Dem on 18.03.2024.
+//  Created by Anton_Dementev on 18.03.2024.
 //
 
 import SwiftUI
