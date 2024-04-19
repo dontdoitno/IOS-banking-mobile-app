@@ -1,30 +1,28 @@
 //
-//  SIGNVIEW.swift
-//  Banking App
+//  CustomView10.swift
 //
-//  Created by Егор Губанов on 18.04.2024.
+//  Created by codia-figma
 //
-
 
 import SwiftUI
 
-struct CustomViewup13: View {
-    @State public var text10Text: String = "Sign In"
+struct CustomView10: View {
+    @State public var text9Text: String = "Sign Up"
     var body: some View {
         HStack(alignment: .center, spacing: 10) {
-            Text(text10Text)
+            Text(text9Text)
                 .foregroundColor(Color(red: 0.21, green: 0.16, blue: 0.72, opacity: 1.00))
                 .font(.custom("Poppins-SemiBold", size: 12))
                 .lineLimit(1)
                 .frame(alignment: .leading)
                 .multilineTextAlignment(.leading)
         }
-        .frame(width: 41, height: 16, alignment: .top)
+        .frame(width: 47, height: 16, alignment: .top)
     }
 }
 
-struct CustomViewup13_Previews: PreviewProvider {
+struct CustomView10_Previews: PreviewProvider {
     static var previews: some View {
-        CustomViewup13()
+        CustomView10()
     }
 }

@@ -1,15 +1,13 @@
 //
-//  SIGNVIEW.swift
-//  Banking App
+//  CustomView5.swift
 //
-//  Created by Егор Губанов on 18.04.2024.
+//  Created by codia-figma
 //
-
 
 import SwiftUI
 
-struct CustomViewup6: View {
-    @State public var text4Text: String = "Name"
+struct CustomView5: View {
+    @State public var text6Text: String = "Text input"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Rectangle()
@@ -17,7 +15,7 @@ struct CustomViewup6: View {
                 .overlay(RoundedRectangle(cornerRadius: 15).stroke(Color(red: 0.79, green: 0.79, blue: 0.79, opacity: 1.00), lineWidth: 1))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
                 .frame(width: 327, height: 44)
-            Text(text4Text)
+            Text(text6Text)
                 .foregroundColor(Color(red: 0.79, green: 0.79, blue: 0.79, opacity: 1.00))
                 .font(.custom("Poppins-Medium", size: 14))
                 .lineLimit(1)
@@ -29,8 +27,8 @@ struct CustomViewup6: View {
     }
 }
 
-struct CustomViewup6_Previews: PreviewProvider {
+struct CustomView5_Previews: PreviewProvider {
     static var previews: some View {
-        CustomViewup6()
+        CustomView5()
     }
 }
