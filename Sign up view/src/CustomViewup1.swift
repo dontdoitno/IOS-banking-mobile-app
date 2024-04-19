@@ -24,7 +24,7 @@ struct CustomViewup1: View {
     @State public var image5Path: String = "image5_17382"
     @State public var text9Text: String = "Создать новый аккаунт"
     @State public var image6Path: String = "image6_17384"
-    @State public var text10Text: String = "Войти
+    @State public var text10Text: String = "Войти"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Group {

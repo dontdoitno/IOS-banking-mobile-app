@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct CodiaDemoSwiftUIApp: App {
+struct singindemo: App {
     var body: some Scene {
         WindowGroup {
             SIGNVIEW()
