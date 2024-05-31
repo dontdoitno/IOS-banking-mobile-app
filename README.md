@@ -9,7 +9,7 @@
 ### Регистрация
 
 Пользователи могут зарегистрироваться в приложении, заполнив необходимую информацию, такую как имя и пароль. 
-<img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/Registration.png" width="482" height="516">
+<p><img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/Registration.png" width="482" height="516"></p>
 
 ### Вход / Выход (Face ID)
 
