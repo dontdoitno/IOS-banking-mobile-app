@@ -9,9 +9,9 @@
 ### Регистрация
 
 Пользователи могут зарегистрироваться в приложении, заполнив необходимую информацию, такую как имя и пароль. 
-<p><img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_3_2024-06-01_16-49-42.jpg" width="290" height="980">
-<img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_1_2024-06-01_16-49-42.jpg" width="290" height="980">
-<img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_5_2024-06-01_16-49-42.jpg" width="290" height="980">
+<p><img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_3_2024-06-01_16-49-42.jpg" width=50% height=50%>
+<img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_1_2024-06-01_16-49-42.jpg" width="290" height="880">
+<img src="https://github.com/dontdoitno/IOS-banking-mobile-app/blob/main/screens/photo_5_2024-06-01_16-49-42.jpg" width="290" height="780">
 </p>
 
 ### Вход / Выход (Face ID)
