@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isLoggedIn: Bool = false
+    
     var body: some View {
-        VStack {
-            // Добавление заголовка главной страницы
-            MainPageHeader()
-                .alignmentGuide(VerticalAlignment.top) { _ in  1 }
+        if !isLoggedIn {
+            LoginPageView(didCompleteLoginProcess: {
+                
+            }, isLoggedIn: $isLoggedIn )
+        } else {
+            MainContentView()
         }
     }
+    
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
