@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct CustomView9: View {
-    @State public var text10Text: String = "Account 2"
-    @State public var text11Text: String = "8988 1234"
-    @State public var text12Text: String = "Avalable balance"
-    @State public var text13Text: String = "Branch"
-    @State public var text14Text: String = "$12,000"
-    @State public var text15Text: String = "New York"
+    @State public var text10Text: String = "Аккаунт 2"
+    @State public var text11Text: String = "1234 1234 1234 1234"
+    @State public var text12Text: String = "Баланс"
+    @State public var text13Text: String = "Город"
+    @State public var text14Text: String = "12 000"
+    @State public var text15Text: String = "СПб"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Rectangle()
@@ -55,14 +55,14 @@ struct CustomView9: View {
                 .lineLimit(1)
                 .frame(alignment: .trailing)
                 .multilineTextAlignment(.trailing)
-                .offset(x: 267, y: 52)
+                .offset(x: 247, y: 52)
             Text(text15Text)
                 .foregroundColor(Color(red: 0.21, green: 0.16, blue: 0.72, opacity: 1.00))
                 .font(.custom("Poppins-SemiBold", size: 12))
                 .lineLimit(1)
                 .frame(alignment: .trailing)
                 .multilineTextAlignment(.trailing)
-                .offset(x: 254, y: 76)
+                .offset(x: 248, y: 76)
         }
         .frame(width: 327, height: 108, alignment: .topLeading)
         .clipShape(RoundedRectangle(cornerRadius: 15))

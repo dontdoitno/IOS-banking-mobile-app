@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomView13: View {
-    @State public var text22Text: String = "Account"
+    @State public var text22Text: String = "Аккаунт"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Rectangle()

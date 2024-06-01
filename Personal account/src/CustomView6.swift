@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomView6: View {
-    @State public var text2Text: String = "Account and card"
+    @State public var text2Text: String = "Аккаунт и карта"
     @State public var image5Path: String = "image5_I14881100278"
     var body: some View {
         ZStack(alignment: .topLeading) {

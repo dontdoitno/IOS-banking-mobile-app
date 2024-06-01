@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomView5: View {
-    @State public var text1Text: String = "9:41 AM"
+    @State public var text1Text: String = "9:41"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Text(text1Text)
