@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomView10: View {
+struct CustomView10_2: View {
     @State public var text10Text: String = " 4756 "
     @State public var text11Text: String = " 9018"
     @State public var image9Path: String = "image9_I1491516921441"
@@ -36,9 +36,9 @@ struct CustomView10: View {
     }
 }
 
-struct CustomView10_Previews: PreviewProvider {
+struct CustomView10_2_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView10()
+        CustomView10_2()
     }
 }
 

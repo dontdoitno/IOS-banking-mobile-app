@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct CustomView7: View {
+struct CustomView7_2: View {
     @State public var image6Path: String = "image6_I1491416921402"
-    @State public var text3Text: String = "John Smith"
-    @State public var text4Text: String = "Amazon Platinium"
+    @State public var text3Text: String = "Васильев Артур"
+    @State public var text4Text: String = "Тиньк блэк"
     @State public var text5Text: String = " 4756 "
     @State public var text6Text: String = " 9018"
     @State public var image7Path: String = "image7_I1491416921421"
-    @State public var text7Text: String = "$3.469.52"
+    @State public var text7Text: String = "3 469 52"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Image(image6Path)
@@ -35,7 +35,7 @@ struct CustomView7: View {
                 .frame(alignment: .leading)
                 .multilineTextAlignment(.leading)
                 .offset(x: 20.438, y: 92.824)
-            CustomView8(
+            CustomView8_2(
                 text5Text: text5Text,
                 text6Text: text6Text,
                 image7Path: image7Path)
@@ -53,8 +53,8 @@ struct CustomView7: View {
     }
 }
 
-struct CustomView7_Previews: PreviewProvider {
+struct CustomView7_2_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView7()
+        CustomView7_2()
     }
 }

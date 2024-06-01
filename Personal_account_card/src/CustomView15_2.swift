@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct CustomView15: View {
-    @State public var text15Text: String = "Add card"
+struct CustomView15_2: View {
+    @State public var text15Text: String = "Добавить карту"
     var body: some View {
         ZStack(alignment: .topLeading) {
             Rectangle()
@@ -31,8 +31,8 @@ struct CustomView15: View {
     }
 }
 
-struct CustomView15_Previews: PreviewProvider {
+struct CustomView15_2_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView15()
+        CustomView15_2()
     }
 }

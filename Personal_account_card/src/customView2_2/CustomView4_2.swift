@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct CustomView4: View {
+struct CustomView4_2: View {
     @State public var image1Path: String = "image1_I1491266116"
     @State public var image2Path: String = "image2_I1491266117"
-    @State public var text1Text: String = "9:41 AM"
+    @State public var text1Text: String = "9:41"
     @State public var image3Path: String = "image3_I1491266130"
     @State public var image4Path: String = "image4_I1491266134"
     var body: some View {
@@ -24,7 +24,7 @@ struct CustomView4: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 26.485, height: 11.493, alignment: .topLeading)
                 .offset(x: 327.312, y: 4.497)
-            CustomView5(text1Text: text1Text)
+            CustomView5_2(text1Text: text1Text)
                 .frame(width: 64, height: 14)
                 .offset(x: 19.989, y: 3.498)
             Image(image3Path)
@@ -44,8 +44,8 @@ struct CustomView4: View {
     }
 }
 
-struct CustomView4_Previews: PreviewProvider {
+struct CustomView4_2_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView4()
+        CustomView4_2()
     }
 }

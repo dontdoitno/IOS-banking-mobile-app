@@ -5,4 +5,12 @@
 //  Created by Егор Губанов on 01.06.2024.
 //
 
-import Foundation
+import SwiftUI
+
+struct DemoSwiftUIApp_2: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView_pers2()
+        }
+    }
+}
